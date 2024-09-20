@@ -23,7 +23,10 @@ class _CounterPageState extends State<CounterPage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text("Tasbih"),
+            Text(
+              "Tasbih",
+              style: TextStyle(fontSize: 20),
+            ),
             Text(
               _counter.toString(),
               style: TextStyle(fontSize: 40),
@@ -31,7 +34,7 @@ class _CounterPageState extends State<CounterPage> {
             ElevatedButton(
               onPressed: _incrementcounter,
               child: Text(
-                "number",
+                "Mentioned",
               ),
             ),
           ],
